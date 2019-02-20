@@ -1,0 +1,10 @@
+matrix:
+ include:
+  - language : c
+    sudo : false #onlyforfasterbuilds
+    compiler :
+     - clang
+     - gcc
+    script :
+     - gcc -o test main.c
+     - ./test
