@@ -11,7 +11,7 @@ int main()
         a[i]= rand()%2;
     }
 
-    for (i=0; i<100; i++)
+    for (i=0; i<99; i++)
     {
     if(a[i]==a[i+1])
     {
